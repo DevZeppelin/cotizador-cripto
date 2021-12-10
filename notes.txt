@@ -1,0 +1,12 @@
+1. npm create-react-app cotiza-cripto
+2. limpieza de archivos, copiar del gist el index.css y una fuente
+3. copio un icono
+4. Instalar algunas dependencias 
+npm i @emotion/styled @emotion/react axios
+5. CUSTOM HOOK: creamos nustro propio hook
+6. Las conultas las hacemos con axios, no con fetch
+7. Los dos custom hooks son casi clones, solo le cambie algunas cosas... ahora necesito hacer un evento para calcular la cotizacion
+8. Validamos que los campos no esten vacios y hicimos el componente de rror
+9. En el componente FormulAppario creo dos state para moneda y cripto, se los paso al componente Formulario y de ahi recupero los valores que vienen desde mis custom hooks. Una vez ya los tengo voy a App.js para hacer el use Effect
+10. En el useEffect hice toda la consulta a la API, hasta obtener un objeto con los datos que necesitaba, ahora voy a guardar ese resultado en un nuevo state
+11. El spinner lo saque de https://tobiasahlin.com/spinkit/
