@@ -10,3 +10,4 @@ npm i @emotion/styled @emotion/react axios
 9. En el componente FormulAppario creo dos state para moneda y cripto, se los paso al componente Formulario y de ahi recupero los valores que vienen desde mis custom hooks. Una vez ya los tengo voy a App.js para hacer el use Effect
 10. En el useEffect hice toda la consulta a la API, hasta obtener un objeto con los datos que necesitaba, ahora voy a guardar ese resultado en un nuevo state
 11. El spinner lo saque de https://tobiasahlin.com/spinkit/
+12. la API es https://min-api.cryptocompare.com/pricing
