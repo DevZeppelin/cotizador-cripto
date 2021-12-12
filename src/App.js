@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import styled from "@emotion/styled";
-import imagen from './cryptomonedas.png'
+
 import { useEffect } from "react/cjs/react.development";
 import axios from "axios";
 import Formulario from "./components/Formulario";
@@ -87,7 +87,7 @@ function App() {
   return (
     <Contenedor>
       <div>
-        <Imagen src={imagen} alt="imagen cripto" />
+        <Imagen src="/cryptomonedas.png" alt="imagen cripto" />
       </div>
       <div>
         <Heading>Cotiza criptomonedas al Instante</Heading>
